@@ -3997,3 +3997,19 @@ input, select, textarea {
 	body.is-mobile.landing #footer {
 		background-color: #1d242a;
 	}
+
+	.logos-zon {
+		width: 20vmin;
+	}
+
+	.section-two-title {
+		font-size: 10vmin ;
+		background-color: transparent;
+		text-align: center;
+		padding-top: 4vmin;
+		padding-bottom: 4vmin;
+		margin-bottom: 0%;
+		
+		
+	}
+
