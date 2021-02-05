@@ -4003,13 +4003,24 @@ input, select, textarea {
 	}
 
 	.section-two-title {
-		font-size: 10vmin ;
+		font-size: 3vmin ;
 		background-color: transparent;
 		text-align: center;
-		padding-top: 4vmin;
-		padding-bottom: 4vmin;
+		padding-top: 12vmin;
+		padding-bottom: 12vmin;
 		margin-bottom: 0%;
-		
-		
 	}
+
+	.flex-buttons {
+		display: flex;
+		flex-direction: row;
+		justify-content: flex-start;
+	}
+
+	.flex-buttons form {
+		padding-left: 1vmin;
+		padding-right: 1vmin;
+	}
+
+
 
