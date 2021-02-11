@@ -4031,5 +4031,24 @@ input, select, textarea {
 		text-align: center;
 	}
 
+	.flex-tech-icons {
+		display: flex;
+
+	}
+
+	.tech-icon {
+		height: 60px;
+	}
+
+	.center {
+		margin: auto;
+	}
+
+	.flex-primary-button {
+		margin-top: 8vmin;
+		display: flex;
+		justify-content: center;
+	}
+
 
 
