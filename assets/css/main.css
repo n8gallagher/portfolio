@@ -4003,7 +4003,7 @@ input, select, textarea {
 	}
 
 	.section-two-title {
-		font-size: 3vmin ;
+		font-size: 6vmin ;
 		background-color: transparent;
 		text-align: center;
 		padding-top: 12vmin;
@@ -4020,6 +4020,15 @@ input, select, textarea {
 	.flex-buttons form {
 		padding-left: 1vmin;
 		padding-right: 1vmin;
+	}
+
+	.headshot {
+		border-radius: 50%;
+		border: 3px solid white;
+	}
+
+	.inner h2 {
+		text-align: center;
 	}
 
 
