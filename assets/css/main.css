@@ -4051,5 +4051,29 @@ input, select, textarea {
 		justify-content: center;
 	}
 
+	#redux {
+		width: 80px;
+		height: 80px;
+		background: rgba(255, 255, 255);
+		border-radius: 50%;
+		bottom: 3.75vmin;
+		left: 2.4vmin;
+		z-index: -1;
+	}
+
+	.relative-redux {
+		position: relative;
+	}
+
+	.absolute {
+		position: absolute;
+	}
+
+	#redux-img {
+		background-color: transparent;
+		/* position: absolute; */
+		z-index: 1;
+	}
+
 
 

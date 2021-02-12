@@ -11,6 +11,13 @@
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
 		<link rel="stylesheet" href="assets/css/main.css" />
+		<script>
+			window.dataLayer = window.dataLayer || [];
+			function gtag(){dataLayer.push(arguments);}
+			gtag('js', new Date());
+
+			gtag('config', 'G-2KSW16QHY6');
+		</script>
 		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
 	</head>
 	<body class="landing is-preload">
@@ -139,7 +146,12 @@
 								<label class="tech-icon-label"><img class="tech-icon" src="./images/tech-icons/postgres.png" alt="">PostgreSQL</label>
 								<label class="tech-icon-label"><img class="tech-icon" src="./images/tech-icons/rails.png" alt="">Rails</label>
 								<label class="tech-icon-label"><img class="tech-icon" src="./images/tech-icons/React.png" alt="">React</label>
-								<label class="tech-icon-label"><img class="tech-icon" src="./images/tech-icons/redux.png" alt="">Redux</label>
+								<label class="tech-icon-label">
+								<div class="relative-redux">
+									<img id="redux-img" class="tech-icon" src="./images/tech-icons/redux.png" alt="">Redux
+									<div id="redux" class="absolute"></div>
+								</div>
+							</label>
 								<label class="tech-icon-label"><img class="tech-icon" src="./images/tech-icons/next-js.png" alt="">NextJS</label>
 								<label class="tech-icon-label"><img class="tech-icon" src="./images/tech-icons/mongodb.png" alt="">MongoDB</label>
 							</div>
